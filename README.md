@@ -35,6 +35,69 @@ Decision-makers need a **centralized, interactive dashboard** to understand perf
 6. **Promotion** – Promotional offer analysis and impact  
 7. **Forecasting** – Monthly trends, seasonality, and future sales prediction
 
+
+---
+
+## 8. Data Cleaning & Transformation
+
+### 8.1 KYD Data Cleaning Steps
+The raw Amazon sales data was cleaned and transformed to ensure accuracy and consistency. Below are the applied steps:
+
+| Sr. No. | Applied Steps |
+|---------|---------------|
+| 0 | Load CSV File |
+| 1 | Remove Column `index` |
+| 2 | Remove Column `Style` |
+| 3 | Remove Column `ASIN` |
+| 4 | Remove Column `ship-postal-code` |
+| 5 | Remove Column `Unnamed: 22` |
+| 6 | Remove Errors |
+| 7 | Remove Blank Rows |
+| 8 | Remove Duplicates |
+| 9 | Remove Errors, Blank Rows, Duplicates after handling 0 in Qty |
+| 10 | Add Column `Total Amount` |
+| 11 | Remove Errors after handling 0 and null values in Total Amount |
+| 12 | Add Column `Year` |
+| 13 | Add Column `Month` |
+| 14 | Add Column `Week` |
+| 15 | Add Column `Order Type` |
+| 16 | Add Column `Order Status Group` |
+| 17 | Remove Column `Sales Channel` |
+| 18 | Remove Column `Currency` |
+| 19 | Remove Column `Country` |
+| 20 | Add Column `Promotion Type` |
+
+### 8.2 KYD Data Transformation
+The following table shows the **columns before and after transformation**, including their purpose:
+
+| Col No. | Column Name (Before) | Description / Purpose | Col No. | Column Name (After) | Description / Purpose |
+|---------|--------------------|---------------------|---------|-------------------|---------------------|
+| 1 | index | Row number (system generated) | 1 | Order ID | Unique order identification number |
+| 2 | Order ID | Unique order identification number | 2 | Date | Final cleaned order date (proper date format) |
+| 3 | Date | Order placed date (MM-DD-YY) | 3 | Year | Extracted year from the Date column |
+| 4 | Status | Order current status | 4 | Month | Extracted month from Date column |
+| 5 | Fulfilment | Who fulfilled the order | 5 | Week | Extracted week number of the year |
+| 6 | Sales Channel | Platform used for sales | 6 | Status | Cleaned order status |
+| 7 | ship-service-level | Shipping type | 7 | Order Status Group | Categorized order status |
+| 8 | Style | Product style code | 8 | Fulfilment | Who fulfilled the order |
+| 9 | SKU | Stock Keeping Unit | 9 | Shipping Type | Shipping method |
+| 10 | Category | Product category | 10 | Order Type | Derived — “FBA” if Fulfilment = Amazon else “FBM” |
+| 11 | Size | Product size | 11 | SKU | Stock Keeping Unit (unique product identifier) |
+| 12 | ASIN | Amazon Standard ID | 12 | Category | Product category |
+| 13 | Courier Status | Shipment progress status | 13 | Size | Product size |
+| 14 | Qty | Quantity ordered | 14 | Courier Status | Shipment progress details |
+| 15 | currency | Currency type | 15 | Qty | Quantity ordered per order ID |
+| 16 | Amount | Total sale amount | 16 | Amount | Cleaned and converted total sale amount |
+| 17 | ship-city | Shipping destination city | 17 | Total Amount | Derived as Qty × Amount |
+| 18 | ship-state | Shipping destination state | 18 | City | Shipping destination city |
+| 19 | ship-postal-code | Shipping postal code | 19 | State | Shipping destination state |
+| 20 | ship-country | Shipping destination country | 20 | Promotion IDs | Cleaned promotion IDs or blank |
+| 21 | promotion-ids | Promotion or coupon identifiers | 21 | B2B | Business-to-Business order indicator (Yes/No) |
+| 22 | B2B | B2B indicator | 22 | Fulfilled By | Final fulfilment source (Easy Ship / Amazon / Merchant) |
+| 23 | fulfilled-by | Fulfilment type | 23 | Promotion Type | Derived promotion type column |
+| 24 | Unnamed: 22 | Extra blank column | - | - | Removed during cleaning |
+
+
 ---
 
 ## 1. Home Page
