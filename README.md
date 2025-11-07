@@ -162,24 +162,50 @@ These filters are **applied across all pages**:
 - Order Status Group
 
 ---
-
 ## 2. Overview Page
 
 **Screenshot:**  
 <img width="1406" height="797" alt="Screenshot 2025-11-08 012733" src="https://github.com/user-attachments/assets/f87dad0b-52ea-4ea9-9111-d79376fa24fd" />
- 
 
 **Purpose:**  
-The Overview page provides a **high-level summary of Amazon sales performance**. It allows stakeholders to quickly understand overall business trends and key metrics.
+The Overview page provides a **high-level summary of Amazon sales performance**.  
+It allows stakeholders to quickly understand overall business trends, monitor sales performance, and identify growth opportunities.
+
+---
+
+### Page-Specific KPIs
+The Overview page focuses on visualizing metrics that **summarize overall performance**:
+
+- **Top 5 Category by Total Sales:**  
+  Highlights the product categories generating the highest revenue.  
+  *Purpose:* Helps stakeholders identify which product categories drive the most business and which are underperforming.
+
+- **Fulfilment by Total Sales:**  
+  Compares revenue contributed by Amazon (FBA) and Merchant (FBM) fulfilment.  
+  *Purpose:* Helps understand operational dependency and the impact of fulfilment methods on total sales.
+
+- **State Wise Total Sales:**  
+  Shows total sales distributed across all states on a map.  
+  *Purpose:* Visualizes regional performance, allowing stakeholders to spot high-performing and low-performing regions geographically.
+
+- **Promotion Type by Total Sales:**  
+  Compares revenue generated from orders with promotions vs without promotions.  
+  *Purpose:* Evaluates the effectiveness of marketing campaigns and discounts in driving sales.
+
+- **Monthly Sales Trend:**  
+  Line chart showing total sales month-by-month.  
+  *Purpose:* Tracks seasonality, growth trends, and identifies peaks or dips in revenue over time.
+
+---
 
 **Visuals / Charts on Overview Page:**  
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
 |---------|------|-------------|--------------|-----------------|
-| 1 | Top 5 Category by Total Sales | Stacked Column Chart | Category, Total Amount | Shows which product categories generate the highest revenue. |
-| 2 | Fulfilment by Total Sales | Donut Chart | Fulfilment, Total Amount | Compares contribution of Amazon (FBA) vs Merchant (FBM) fulfilment to total sales. |
-| 3 | State Wise Total Sales | Filled Map | State, Total Amount | Displays total sales distribution across states. |
-| 4 | Promotion Type by Total Sales | Stacked Bar Chart | Promotion IDs, Total Amount | Compares sales generated from promotional vs non-promotional orders. |
-| 5 | Monthly Sales Trend | Line Chart | Month, Total Amount | Tracks monthly revenue patterns and seasonality trends. |
+| 1 | Top 5 Category by Total Sales | Stacked Column Chart | Category, Total Amount | Identifies top-performing product categories and revenue contribution. |
+| 2 | Fulfilment by Total Sales | Donut Chart | Fulfilment, Total Amount | Shows sales share between Amazon (FBA) and Merchant (FBM). |
+| 3 | State Wise Total Sales | Filled Map | State, Total Amount | Highlights state-wise sales distribution to identify regional performance. |
+| 4 | Promotion Type by Total Sales | Stacked Bar Chart | Promotion IDs, Total Amount | Compares revenue from promotional vs non-promotional orders. |
+| 5 | Monthly Sales Trend | Line Chart | Month, Total Amount | Displays monthly sales trends and seasonality patterns. |
 
 ---
 
