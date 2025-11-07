@@ -161,3 +161,28 @@ The Region page provides insights into **state-wise and city-wise sales performa
 | 3 | Top 5 City by Total Sales | Stacked Bar Chart | City, Total Sales | Shows top 5 cities contributing most to overall sales. |
 | 4 | Bottom 5 State by Total Sales | Stacked Bar Chart | State, Total Sales | Displays the 5 lowest-performing states. |
 | 5 | Regional Overview Table | Table | State, City, Qty, Total Amount, Fulfilment | Provides detailed regional summary including sales, quantity, and fulfilment split. |
+
+
+---
+
+## 6. Promotion Page
+
+**Screenshot:**  
+<img width="1407" height="799" alt="Screenshot 2025-11-08 013015" src="https://github.com/user-attachments/assets/7951c19a-5b84-4b8d-bf8b-55c955d3ad0c" />
+
+
+**Purpose:**  
+The Promotion page provides insights into **promotional offer performance**. It helps stakeholders analyze how different promotions impact sales and understand revenue generated organically versus via offers.
+
+**KPIs on Promotion Page:**  
+- **No Promotion % Share:** Percentage of total sales without any promotion.  
+- **Promotion Applied % Share:** Percentage of total sales under promotional offers.  
+
+**Visuals / Charts on Promotion Page:**  
+| Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
+|---------|------|-------------|--------------|-----------------|
+| 1 | Promotion Type % by Qty | Donut Chart | Promotion Type, Qty | Shows quantity distribution between “Promotion Applied” and “No Promotion”. |
+| 2 | Sales by Month & Promotion Type | Line & Clustered Column Chart | Month, Promotion Type, Total Amount | Compares monthly sales between promotion types. |
+| 3 | Sales by Size & Qty | Line Chart | Total Amount, Size, Qty | Displays sales and quantity variation across product sizes during promotions. |
+| 4 | Top 5 Promotion IDs by Qty | Stacked Bar Chart | Promotion IDs, Qty | Highlights the top 5 promotion IDs that drove the highest quantity of orders. |
+| 5 | Total Sales By Promotion Type | Donut Chart | Total Amount, Promotion Type | Compares total sales generated under each promotion type. |
