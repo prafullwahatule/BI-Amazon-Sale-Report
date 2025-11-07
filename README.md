@@ -26,21 +26,9 @@ Decision-makers need a **centralized, interactive dashboard** to understand perf
 
 ---
 
-## Dashboard Pages
-1. **Home** – Logo and page navigation buttons  
-2. **Overview** – High-level KPIs and overall sales analysis  
-3. **Product** – Product performance and top-selling SKUs  
-4. **Fulfilment** – FBA vs FBM performance and delivery efficiency  
-5. **Region** – State and city-wise sales distribution  
-6. **Promotion** – Promotional offer analysis and impact  
-7. **Forecasting** – Monthly trends, seasonality, and future sales prediction
+## 1. Data Cleaning & Transformation
 
-
----
-
-## 8. Data Cleaning & Transformation
-
-### 8.1 KYD Data Cleaning Steps
+### 1.1 KYD Data Cleaning Steps
 The raw Amazon sales data was cleaned and transformed to ensure accuracy and consistency. Below are the applied steps:
 
 | Sr. No. | Applied Steps |
@@ -67,7 +55,7 @@ The raw Amazon sales data was cleaned and transformed to ensure accuracy and con
 | 19 | Remove Column `Country` |
 | 20 | Add Column `Promotion Type` |
 
-### 8.2 KYD Data Transformation
+### 1.2 KYD Data Transformation
 The following table shows the **columns before and after transformation**, including their purpose:
 
 | Col No. | Column Name (Before) | Description / Purpose | Col No. | Column Name (After) | Description / Purpose |
@@ -98,7 +86,7 @@ The following table shows the **columns before and after transformation**, inclu
 | 24 | Unnamed: 22 | Extra blank column | - | - | Removed during cleaning |
 
 
-### 8.3 Data Cleaning: Rows & Columns Effect
+### 1.3 Data Cleaning: Rows & Columns Effect
 
 The following table shows how the number of rows and columns changed after each cleaning/transformation step:
 
@@ -127,6 +115,18 @@ The following table shows how the number of rows and columns changed after each 
 | 20 | 113698 | 113698 | 0 | 22 | 23 | 1 |
 
 ---
+
+## Dashboard Pages
+1. **Home** – Logo and page navigation buttons  
+2. **Overview** – High-level KPIs and overall sales analysis  
+3. **Product** – Product performance and top-selling SKUs  
+4. **Fulfilment** – FBA vs FBM performance and delivery efficiency  
+5. **Region** – State and city-wise sales distribution  
+6. **Promotion** – Promotional offer analysis and impact  
+7. **Forecasting** – Monthly trends, seasonality, and future sales prediction
+
+---
+
 
 ## 1. Home Page
 
