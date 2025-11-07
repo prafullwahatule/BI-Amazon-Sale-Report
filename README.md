@@ -34,3 +34,15 @@ Decision-makers need a **centralized, interactive dashboard** to understand perf
 5. **Region** – State and city-wise sales distribution  
 6. **Promotion** – Promotional offer analysis and impact  
 7. **Forecasting** – Monthly trends, seasonality, and future sales prediction
+
+---
+
+## 1. Home Page
+
+**Screenshot:**  
+<img width="1404" height="796" alt="Screenshot 2025-11-08 012636" src="https://github.com/user-attachments/assets/38f9a4d8-e333-4c08-a196-51e98efeebbc" />
+
+
+**Purpose:**  
+The Home page serves as the entry point to the dashboard. It primarily contains the dashboard logo and navigation buttons to access other pages.
+
