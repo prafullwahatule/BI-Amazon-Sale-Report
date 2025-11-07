@@ -171,9 +171,8 @@ These filters are **applied across all pages**:
 The Overview page provides a **high-level summary of Amazon sales performance**.  
 It allows stakeholders to quickly understand overall business trends, monitor sales performance, and identify growth opportunities.
 
----
 
-### Page-Specific KPIs
+### Page-Specific Visuals
 The Overview page focuses on visualizing metrics that **summarize overall performance**:
 
 - **Top 5 Category by Total Sales:**  
@@ -197,7 +196,7 @@ The Overview page focuses on visualizing metrics that **summarize overall perfor
   *Purpose:* Tracks seasonality, growth trends, and identifies peaks or dips in revenue over time.
 
 
-### **Visuals / Charts on Overview Page:**  
+### Visuals / Charts on Overview Page 
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
 |---------|------|-------------|--------------|-----------------|
 | 1 | Top 5 Category by Total Sales | Stacked Column Chart | Category, Total Amount | Identifies top-performing product categories and revenue contribution. |
@@ -206,6 +205,14 @@ The Overview page focuses on visualizing metrics that **summarize overall perfor
 | 4 | Promotion Type by Total Sales | Stacked Bar Chart | Promotion IDs, Total Amount | Compares revenue from promotional vs non-promotional orders. |
 | 5 | Monthly Sales Trend | Line Chart | Month, Total Amount | Displays monthly sales trends and seasonality patterns. |
 
+
+### Insights for Stakeholders
+- Quickly identify **high-performing product categories** and those needing attention.  
+- Understand the **impact of fulfilment types** (FBA vs FBM) on overall sales.  
+- Detect **regional trends** and target high-performing or underperforming states for growth.  
+- Assess **effectiveness of promotional campaigns** in boosting sales.  
+- Monitor **seasonality and monthly revenue patterns** to support inventory, marketing, and operational planning.  
+
 ---
 
 ## 3. Product Page
@@ -213,54 +220,112 @@ The Overview page focuses on visualizing metrics that **summarize overall perfor
 **Screenshot:**  
 <img width="1402" height="794" alt="Screenshot 2025-11-08 012814" src="https://github.com/user-attachments/assets/44a30531-ce9d-43ff-b416-504c5b91c1a2" />
 
-
 **Purpose:**  
-The Product page provides insights into **product-level performance**. It helps stakeholders identify top-selling categories, SKUs, and sizes to optimize inventory, marketing, and sales strategies.
+The Product page provides insights into **product-level performance**.  
+It allows stakeholders to:  
+- Identify top-selling **categories** and **SKUs**  
+- Understand **product size performance**  
+- Optimize **inventory planning**, **marketing campaigns**, and **sales strategies**  
 
-**KPIs on Product Page:**  
-- **Best-Selling Category:** Identifies the product category with the highest total sales.  
-- **Top Performing Size:** Highlights which product size sells the most.  
-- **Top SKU by Sales:** Shows the SKU generating maximum revenue.  
-- **Average Category Revenue (₹):** Finds the average sales per category for comparison.  
 
-**Visuals / Charts on Product Page:**  
+### Page-Specific KPI's
+
+- **Best-Selling Category:**  
+  Shows which product category generated the highest total sales.  
+  *Insight:* Helps stakeholders focus on the most profitable categories and make decisions about stock and promotions.
+
+- **Top Performing Size:**  
+  Highlights which product size sells the most units.  
+  *Insight:* Guides production and inventory decisions by showing size preferences of customers.
+
+- **Top SKU by Sales:**  
+  Displays the SKU generating maximum revenue.  
+  *Insight:* Helps in prioritizing marketing, inventory allocation, and promotions for top-performing products.
+
+- **Average Category Revenue (₹):**  
+  Calculates the average sales per category.  
+  *Insight:* Enables comparison across categories to understand overall product performance and potential improvement areas.
+
+
+### Visuals / Charts on Product Page
+
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
 |---------|------|-------------|--------------|-----------------|
-| 1 | Top 3 SKU by Total Sales | Donut Chart | SKU, Total Amount | Identifies the best revenue-generating SKUs. |
-| 2 | Top 3 SKU by Total Qty | Donut Chart | SKU, Qty | Shows which products are selling the most units. |
-| 3 | Total Sales By Size | Stacked Bar Chart | Size, Total Amount | Reveals which size variants contribute more sales. |
-| 4 | Qty By Month & Category | Line Chart | Qty, Month, Category | Tracks monthly demand trends across categories. |
-| 5 | Total Sales By Category | Stacked Column Chart | Category, Total Amount | Measures category-wise revenue contribution. |
+| 1 | Top 3 SKU by Total Sales | Donut Chart | SKU, Total Amount | Identifies **top 3 revenue-generating SKUs**. Helps focus on products contributing the most to total sales. |
+| 2 | Top 3 SKU by Total Qty | Donut Chart | SKU, Qty | Shows **top 3 selling SKUs by quantity**. Useful for inventory management and understanding demand trends. |
+| 3 | Total Sales By Size | Stacked Bar Chart | Size, Total Amount | Reveals which **size variants generate the highest revenue**. Assists in optimizing size-wise production and stock levels. |
+| 4 | Qty By Month & Category | Line Chart | Qty, Month, Category | Tracks **monthly demand trends per category**. Helps detect seasonality and identify periods of high demand for specific categories. |
+| 5 | Total Sales By Category | Stacked Column Chart | Category, Total Amount | Measures **revenue contribution of each product category**. Supports strategic planning, marketing, and inventory decisions. |
+
+
+**Insights for Stakeholders:**  
+- Focus on top-performing SKUs and categories to maximize revenue.  
+- Adjust inventory levels based on top-selling sizes and trends.  
+- Plan marketing campaigns around high-performing products.  
+- Analyze monthly trends to anticipate demand spikes or dips.  
+
 
 ---
-
 ## 4. Fulfilment Page
 
 **Screenshot:**  
 <img width="1404" height="797" alt="Screenshot 2025-11-08 012844" src="https://github.com/user-attachments/assets/98651e2a-f7b3-4c12-8860-ed1aa459340d" />
 
-
 **Purpose:**  
-The Fulfilment page provides insights into **order processing and delivery efficiency**. It helps stakeholders evaluate FBA (Amazon-fulfilled) vs FBM (Merchant-fulfilled) performance and monitor delivery success rates.
+The Fulfilment page provides insights into **order processing and delivery efficiency**.  
+It helps stakeholders:  
+- Evaluate **Amazon-fulfilled (FBA) vs Merchant-fulfilled (FBM)** performance  
+- Monitor **delivery success rates and operational efficiency**  
+- Identify areas to improve **logistics and fulfilment strategy**
 
-**KPIs on Fulfilment Page:**  
-- **Total Orders (Fulfilment):** Total number of orders processed.  
-- **Avg Delivery Value (₹):** Compares average order value for each fulfilment type.  
-- **Delivered Orders %:** Percentage of total delivered orders, indicating delivery efficiency.  
-- **FBA % Share:** Contribution of Amazon-fulfilled orders in total sales.  
-- **FBM % Share:** Contribution of Merchant-fulfilled orders in total sales.  
-- **FBA Sales (₹):** Total revenue generated from FBA orders.  
-- **FBM Sales (₹):** Total revenue generated from FBM orders.  
 
-**Visuals / Charts on Fulfilment Page:**  
+### KPIs on Fulfilment Page
+
+- **Total Orders (Fulfilment):**  
+  Total number of orders processed.  
+  *Insight:* Shows overall operational volume and helps track order handling efficiency.
+
+- **Avg Delivery Value (₹):**  
+  Compares the average order value for each fulfilment type.  
+  *Insight:* Helps identify which fulfilment model brings higher revenue per order.
+
+- **Delivered Orders %:**  
+  Percentage of total delivered orders.  
+  *Insight:* Tracks delivery efficiency and helps monitor fulfilment reliability.
+
+- **FBA % Share:**  
+  Contribution of Amazon-fulfilled orders in total sales.  
+  *Insight:* Indicates dependence on Amazon’s fulfilment network.
+
+- **FBM % Share:**  
+  Contribution of Merchant-fulfilled orders in total sales.  
+  *Insight:* Highlights the role of independent seller fulfilment in overall revenue.
+
+- **FBA Sales (₹):**  
+  Total revenue generated from Amazon-fulfilled orders.  
+  *Insight:* Measures Amazon’s direct contribution to total sales.
+
+- **FBM Sales (₹):**  
+  Total revenue generated from Merchant-fulfilled orders.  
+  *Insight:* Measures revenue contribution from seller-managed fulfilment.
+
+### Visuals / Charts on Fulfilment Page
+
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
 |---------|------|-------------|--------------|-----------------|
-| 1 | Qty by Fulfilment | Donut Chart | Qty, Fulfilment | Shows quantity distribution between FBA and FBM. |
-| 2 | Avg Delivery Value By Fulfilment | Stacked Bar Chart | Avg Delivery Value, Fulfilment | Compares average delivery value by fulfilment type. |
-| 3 | Delivered Orders % by Month & Year | Line Chart | Delivered Order %, Month, Year | Tracks delivery success trends over time. |
-| 4 | Qty by City & Fulfilment | Stacked Bar Chart | City, Qty, Fulfilment | Highlights quantity handled by each fulfilment type across cities. |
-| 5 | FBA Share % | Donut Chart | Order Type, Total Amount | Shows percentage of total sales fulfilled via Amazon FBA. |
-| 6 | FBM Share % | Donut Chart | Order Type, Total Amount | Shows percentage of total sales fulfilled via Merchant FBM. |
+| 1 | Qty by Fulfilment | Donut Chart | Qty, Fulfilment | Shows quantity distribution between FBA and FBM. Helps compare fulfilment efficiency. |
+| 2 | Avg Delivery Value By Fulfilment | Stacked Bar Chart | Avg Delivery Value, Fulfilment | Compares average delivery value by fulfilment type to identify which model brings higher order value. |
+| 3 | Delivered Orders % by Month & Year | Line Chart | Delivered Order %, Month, Year | Tracks delivery success trends over time. Helps monitor seasonal performance and logistics issues. |
+| 4 | Qty by City & Fulfilment | Stacked Bar Chart | City, Qty, Fulfilment | Highlights quantity handled by each fulfilment type across cities. Supports operational and logistics planning. |
+| 5 | FBA Share % | Donut Chart | Order Type, Total Amount | Shows percentage of total sales fulfilled via Amazon FBA. Useful to measure Amazon’s operational dominance. |
+| 6 | FBM Share % | Donut Chart | Order Type, Total Amount | Shows percentage of total sales fulfilled via Merchant FBM. Helps evaluate merchant-driven performance. |
+
+
+### Insights for Stakeholders
+- Identify which fulfilment type (FBA or FBM) drives **more revenue and order volume**.  
+- Monitor **delivery efficiency** over time to prevent delays or fulfilment bottlenecks.  
+- Optimize logistics by analyzing **city-wise order quantities** and trends.  
+- Understand the **balance between Amazon and Merchant fulfilment**, enabling informed operational decisions.  
 
 ---
 
@@ -269,23 +334,42 @@ The Fulfilment page provides insights into **order processing and delivery effic
 **Screenshot:**  
 <img width="1405" height="799" alt="Screenshot 2025-11-08 012946" src="https://github.com/user-attachments/assets/3ccd2b44-ff08-4934-94e4-53d1b9b0588b" />
 
-
 **Purpose:**  
-The Region page provides insights into **state-wise and city-wise sales performance**. It helps stakeholders identify high-performing and underperforming regions to make informed regional strategies.
+The Region page provides insights into **state-wise and city-wise sales performance**.  
+It helps stakeholders:  
+- Identify **high-performing and underperforming regions**  
+- Make **data-driven regional strategies**  
+- Allocate resources and plan promotions based on **regional sales trends**
 
-**KPIs on Region Page:**  
-- **Top State by Sales:** Identifies the state generating the highest total sales.  
-- **Top City by Sales:** Finds the city with the maximum revenue contribution.  
 
-**Visuals / Charts on Region Page:**  
+### KPIs on Region Page
+
+- **Top State by Sales:**  
+  Identifies the state generating the highest total sales.  
+  *Insight:* Helps focus marketing and operational efforts on the most profitable regions.
+
+- **Top City by Sales:**  
+  Finds the city with the maximum revenue contribution.  
+  *Insight:* Highlights key urban markets driving sales, aiding targeted campaigns.
+
+
+
+### Visuals / Charts on Region Page
+
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
 |---------|------|-------------|--------------|-----------------|
-| 1 | Sold Qty By State | Map | Qty, State | Visualizes total quantity sold across states. |
-| 2 | Top 5 State by Total Sales | Stacked Bar Chart | State, Total Sales | Highlights the top 5 states generating the highest total sales. |
-| 3 | Top 5 City by Total Sales | Stacked Bar Chart | City, Total Sales | Shows top 5 cities contributing most to overall sales. |
-| 4 | Bottom 5 State by Total Sales | Stacked Bar Chart | State, Total Sales | Displays the 5 lowest-performing states. |
-| 5 | Regional Overview Table | Table | State, City, Qty, Total Amount, Fulfilment | Provides detailed regional summary including sales, quantity, and fulfilment split. |
+| 1 | Sold Qty By State | Map | Qty, State | Visualizes total quantity sold across states. Helps stakeholders quickly identify high-volume regions. |
+| 2 | Top 5 State by Total Sales | Stacked Bar Chart | State, Total Sales | Highlights the top 5 states generating the highest total sales. Supports resource allocation and strategy planning. |
+| 3 | Top 5 City by Total Sales | Stacked Bar Chart | City, Total Sales | Shows top 5 cities contributing most to overall sales. Helps in city-level marketing and logistics decisions. |
+| 4 | Bottom 5 State by Total Sales | Stacked Bar Chart | State, Total Sales | Displays the 5 lowest-performing states. Enables targeted improvement initiatives. |
+| 5 | Regional Overview Table | Table | State, City, Qty, Total Amount, Fulfilment | Provides a detailed regional summary including sales, quantity, and fulfilment split. Supports deeper analysis of regional trends. |
 
+
+### Insights for Stakeholders
+- Identify regions contributing **most and least** to sales revenue.  
+- Prioritize **promotions, inventory, and fulfilment** in high-performing states/cities.  
+- Detect **underperforming areas** and plan corrective actions.  
+- Use data for **logistics optimization** and regional market strategy.  
 
 ---
 
@@ -295,51 +379,96 @@ The Region page provides insights into **state-wise and city-wise sales performa
 <img width="1407" height="799" alt="Screenshot 2025-11-08 013015" src="https://github.com/user-attachments/assets/7951c19a-5b84-4b8d-bf8b-55c955d3ad0c" />
 
 **Purpose:**  
-The Promotion page provides insights into **promotional offer performance**. It helps stakeholders analyze how different promotions impact sales and understand revenue generated organically versus via offers.
+The Promotion page provides insights into **promotional offer performance**.  
+It allows stakeholders to:  
+- Understand the share of sales generated organically versus via promotions.  
+- Identify which promotions drive the highest quantity and revenue.  
+- Evaluate the effectiveness of marketing campaigns in boosting sales.
 
-**KPIs on Promotion Page:**  
-- **No Promotion % Share:** Percentage of total sales without any promotion.  
-- **Promotion Applied % Share:** Percentage of total sales under promotional offers.  
 
-**Visuals / Charts on Promotion Page:**  
+### Page-Specific KPI's
+
+- **No Promotion % Share:**  
+  Shows the percentage of total sales that were made without any promotion.  
+  *Insight:* Helps stakeholders understand how much revenue is generated organically, indicating brand strength and product demand without discounts.  
+
+- **Promotion Applied % Share:**  
+  Shows the percentage of total sales that occurred under promotions or discounts.  
+  *Insight:* Measures the effectiveness and reach of promotional campaigns, enabling marketing teams to evaluate ROI of offers.
+
+
+
+### Visuals / Charts on Promotion Page
+
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
 |---------|------|-------------|--------------|-----------------|
-| 1 | Promotion Type % by Qty | Donut Chart | Promotion Type, Qty | Shows quantity distribution between “Promotion Applied” and “No Promotion”. |
-| 2 | Sales by Month & Promotion Type | Line & Clustered Column Chart | Month, Promotion Type, Total Amount | Compares monthly sales between promotion types. |
-| 3 | Sales by Size & Qty | Line Chart | Total Amount, Size, Qty | Displays sales and quantity variation across product sizes during promotions. |
-| 4 | Top 5 Promotion IDs by Qty | Stacked Bar Chart | Promotion IDs, Qty | Highlights the top 5 promotion IDs that drove the highest quantity of orders. |
-| 5 | Total Sales By Promotion Type | Donut Chart | Total Amount, Promotion Type | Compares total sales generated under each promotion type. |
+| 1 | Promotion Type % by Qty | Donut Chart | Promotion Type, Qty | **Displays quantity distribution between orders with promotions and without promotions.** Stakeholders can quickly see what portion of sales is driven by offers versus organic sales. |
+| 2 | Sales by Month & Promotion Type | Line & Clustered Column Chart | Month, Promotion Type, Total Amount | **Compares monthly sales trends for promotional vs non-promotional orders.** Helps identify which months promotions had maximum impact and seasonal patterns in offer effectiveness. |
+| 3 | Sales by Size & Qty | Line Chart | Total Amount, Size, Qty | **Shows variation in sales and quantities across product sizes during promotions.** Supports size-specific promotion planning and inventory allocation. |
+| 4 | Top 5 Promotion IDs by Qty | Stacked Bar Chart | Promotion IDs, Qty | **Highlights the top 5 promotion campaigns driving highest order quantities.** Enables marketing teams to evaluate the most effective promotions for future campaigns. |
+| 5 | Total Sales By Promotion Type | Donut Chart | Total Amount, Promotion Type | **Compares revenue generated under each promotion type.** Helps stakeholders see which type of promotion contributed most to sales and plan marketing strategies accordingly. |
 
-**Filters / Slicers on Promotion Page:**  
+
+### Filters / Slicers on Promotion Page
+
 | Sr. No. | Filter / Slicer Name | Used Column |
 |---------|-------------------|-------------|
-| 1 | Business 2 Business | B2B |
-| 2 | Fulfilment | Fulfilment |
+| 1 | Business 2 Business | B2B |  
+  *Insight:* Allows filtering sales and promotions specifically for B2B orders to evaluate how offers perform in the business segment. |
+| 2 | Fulfilment | Fulfilment |  
+  *Insight:* Enables analysis of promotions by fulfilment type (Amazon FBA vs Merchant FBM), helping operations and marketing teams understand impact per fulfilment channel.
 
+
+### Insights for Stakeholders
+- Understand **organic vs promotional sales** and overall campaign effectiveness.  
+- Identify **top-performing promotions** and their impact on quantity and revenue.  
+- Plan **size-specific or segment-specific promotions** using quantity and revenue data.  
+- Evaluate performance by **B2B segment and fulfilment type** for targeted marketing strategies.  
 
 ---
 
 ## 7. Forecasting Page
 
 **Screenshot:**  
-![Uploading Screenshot 2025-11-08 013041.png…]()
+<img width="1407" height="797" alt="Screenshot 2025-11-08 013041" src="https://github.com/user-attachments/assets/ac066690-de9b-4cce-b6d5-b80c1f9f8b0d" />
 
 
 **Purpose:**  
 The Forecasting page provides insights into **monthly sales trends, seasonality, and future sales predictions**.  
-It helps stakeholders plan inventory, marketing, and business strategies based on historical data and predicted trends.
+It allows stakeholders to:  
+- Analyze historical sales patterns.  
+- Identify peak and low-demand months.  
+- Plan inventory, marketing, and operational strategies.  
+- Make data-driven forecasts for upcoming months.
 
-**KPIs on Forecasting Page:**  
-- **Avg Monthly Sales (₹):** Shows average sales per month to understand seasonality.  
-- **Highest Sales Month:** Identifies the month with the highest total sales.  
 
-**Visuals / Charts on Forecasting Page:**  
+### Page-Specific KPI's
+
+- **Avg Monthly Sales (₹):**  
+  Calculates the average sales per month.  
+  *Insight:* Helps stakeholders understand seasonal trends and expected revenue, enabling better resource allocation.
+
+- **Highest Sales Month:**  
+  Identifies the month with the maximum total sales.  
+  *Insight:* Enables planning for high-demand months, such as scaling stock, logistics, or marketing campaigns.
+
+
+### Visuals / Charts on Forecasting Page
+
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
 |---------|------|-------------|--------------|-----------------|
-| 1 | Order Over Status | Line Chart | Order Status Group, Qty | Tracks order movement by status group over time. |
-| 2 | Qty Trend Over Time | Line Chart | Month, Qty | Shows how total ordered quantity changes month by month. |
-| 3 | Sales Trend Over Time | Line Chart | Month, Total Amount | Displays overall monthly sales growth trends. |
-| 4 | Category Wise Monthly Trend | Area Chart | Month, Total Amount, Category | Highlights monthly performance of different product categories. |
-| 5 | Fulfilment Type Trend | Stacked Column Chart | Month, Fulfilment, Total Amount | Compares monthly sales between FBA and FBM fulfilment. |
-| 6 | Business To Business Trend | Stacked Column Chart | B2B, Total Amount | Shows revenue contribution from B2B vs B2C orders. |
-| 7 | Sales by Shipping Type & Month | Donut Chart | Month, Shipping Type, Total Amount | Displays distribution of sales by shipping types per month. |
+| 1 | Order Over Status | Line Chart | Order Status Group, Qty | **Tracks the movement of orders by status over time.** Helps stakeholders understand fulfillment and cancellation trends. |
+| 2 | Qty Trend Over Time | Line Chart | Month, Qty | **Shows month-wise changes in ordered quantity.** Useful to detect seasonality or spikes in demand. |
+| 3 | Sales Trend Over Time | Line Chart | Month, Total Amount | **Displays overall monthly sales growth trends.** Supports business planning and trend analysis. |
+| 4 | Category Wise Monthly Trend | Area Chart | Month, Total Amount, Category | **Highlights monthly performance of product categories.** Reveals seasonal demand patterns per category for inventory planning. |
+| 5 | Fulfilment Type Trend | Stacked Column Chart | Month, Fulfilment, Total Amount | **Compares sales by FBA and FBM fulfilment per month.** Helps assess operational efficiency and channel performance. |
+| 6 | Business To Business Trend | Stacked Column Chart | B2B, Total Amount | **Shows revenue contribution from B2B vs B2C orders.** Supports segment-specific strategy and sales planning. |
+| 7 | Sales by Shipping Type & Month | Donut Chart | Month, Shipping Type, Total Amount | **Displays monthly sales distribution by shipping type.** Helps optimize delivery methods and assess customer preferences. |
+
+
+### Insights for Stakeholders
+- Understand **historical sales patterns** and identify high-demand periods.  
+- Detect **category-specific seasonal trends** to plan production and inventory.  
+- Evaluate **fulfilment efficiency and channel performance** over time.  
+- Optimize **B2B vs B2C strategies** based on revenue contribution.  
+- Plan **marketing and logistics** for upcoming months using predicted trends.
