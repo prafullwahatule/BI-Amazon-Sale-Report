@@ -107,3 +107,35 @@ The Product page provides insights into **product-level performance**. It helps 
 | 3 | Total Sales By Size | Stacked Bar Chart | Size, Total Amount | Reveals which size variants contribute more sales. |
 | 4 | Qty By Month & Category | Line Chart | Qty, Month, Category | Tracks monthly demand trends across categories. |
 | 5 | Total Sales By Category | Stacked Column Chart | Category, Total Amount | Measures category-wise revenue contribution. |
+
+---
+
+## 4. Fulfilment Page
+
+**Screenshot:**  
+<img width="1404" height="797" alt="Screenshot 2025-11-08 012844" src="https://github.com/user-attachments/assets/98651e2a-f7b3-4c12-8860-ed1aa459340d" />
+
+
+**Purpose:**  
+The Fulfilment page provides insights into **order processing and delivery efficiency**. It helps stakeholders evaluate FBA (Amazon-fulfilled) vs FBM (Merchant-fulfilled) performance and monitor delivery success rates.
+
+**KPIs on Fulfilment Page:**  
+- **Total Orders (Fulfilment):** Total number of orders processed.  
+- **Avg Delivery Value (₹):** Compares average order value for each fulfilment type.  
+- **Delivered Orders %:** Percentage of total delivered orders, indicating delivery efficiency.  
+- **FBA % Share:** Contribution of Amazon-fulfilled orders in total sales.  
+- **FBM % Share:** Contribution of Merchant-fulfilled orders in total sales.  
+- **FBA Sales (₹):** Total revenue generated from FBA orders.  
+- **FBM Sales (₹):** Total revenue generated from FBM orders.  
+
+**Visuals / Charts on Fulfilment Page:**  
+| Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
+|---------|------|-------------|--------------|-----------------|
+| 1 | Qty by Fulfilment | Donut Chart | Qty, Fulfilment | Shows quantity distribution between FBA and FBM. |
+| 2 | Avg Delivery Value By Fulfilment | Stacked Bar Chart | Avg Delivery Value, Fulfilment | Compares average delivery value by fulfilment type. |
+| 3 | Delivered Orders % by Month & Year | Line Chart | Delivered Order %, Month, Year | Tracks delivery success trends over time. |
+| 4 | Qty by City & Fulfilment | Stacked Bar Chart | City, Qty, Fulfilment | Highlights quantity handled by each fulfilment type across cities. |
+| 5 | FBA Share % | Donut Chart | Order Type, Total Amount | Shows percentage of total sales fulfilled via Amazon FBA. |
+| 6 | FBM Share % | Donut Chart | Order Type, Total Amount | Shows percentage of total sales fulfilled via Merchant FBM. |
+
+---
