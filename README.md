@@ -186,3 +186,30 @@ The Promotion page provides insights into **promotional offer performance**. It 
 | 3 | Sales by Size & Qty | Line Chart | Total Amount, Size, Qty | Displays sales and quantity variation across product sizes during promotions. |
 | 4 | Top 5 Promotion IDs by Qty | Stacked Bar Chart | Promotion IDs, Qty | Highlights the top 5 promotion IDs that drove the highest quantity of orders. |
 | 5 | Total Sales By Promotion Type | Donut Chart | Total Amount, Promotion Type | Compares total sales generated under each promotion type. |
+
+---
+
+## 7. Forecasting Page
+
+**Screenshot:**  
+![Uploading Screenshot 2025-11-08 013041.png…]()
+
+
+**Purpose:**  
+The Forecasting page provides insights into **monthly sales trends, seasonality, and future sales predictions**.  
+It helps stakeholders plan inventory, marketing, and business strategies based on historical data and predicted trends.
+
+**KPIs on Forecasting Page:**  
+- **Avg Monthly Sales (₹):** Shows average sales per month to understand seasonality.  
+- **Highest Sales Month:** Identifies the month with the highest total sales.  
+
+**Visuals / Charts on Forecasting Page:**  
+| Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
+|---------|------|-------------|--------------|-----------------|
+| 1 | Order Over Status | Line Chart | Order Status Group, Qty | Tracks order movement by status group over time. |
+| 2 | Qty Trend Over Time | Line Chart | Month, Qty | Shows how total ordered quantity changes month by month. |
+| 3 | Sales Trend Over Time | Line Chart | Month, Total Amount | Displays overall monthly sales growth trends. |
+| 4 | Category Wise Monthly Trend | Area Chart | Month, Total Amount, Category | Highlights monthly performance of different product categories. |
+| 5 | Fulfilment Type Trend | Stacked Column Chart | Month, Fulfilment, Total Amount | Compares monthly sales between FBA and FBM fulfilment. |
+| 6 | Business To Business Trend | Stacked Column Chart | B2B, Total Amount | Shows revenue contribution from B2B vs B2C orders. |
+| 7 | Sales by Shipping Type & Month | Donut Chart | Month, Shipping Type, Total Amount | Displays distribution of sales by shipping types per month. |
