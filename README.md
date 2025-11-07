@@ -139,3 +139,25 @@ The Fulfilment page provides insights into **order processing and delivery effic
 | 6 | FBM Share % | Donut Chart | Order Type, Total Amount | Shows percentage of total sales fulfilled via Merchant FBM. |
 
 ---
+
+## 5. Region Page
+
+**Screenshot:**  
+<img width="1405" height="799" alt="Screenshot 2025-11-08 012946" src="https://github.com/user-attachments/assets/3ccd2b44-ff08-4934-94e4-53d1b9b0588b" />
+
+
+**Purpose:**  
+The Region page provides insights into **state-wise and city-wise sales performance**. It helps stakeholders identify high-performing and underperforming regions to make informed regional strategies.
+
+**KPIs on Region Page:**  
+- **Top State by Sales:** Identifies the state generating the highest total sales.  
+- **Top City by Sales:** Finds the city with the maximum revenue contribution.  
+
+**Visuals / Charts on Region Page:**  
+| Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
+|---------|------|-------------|--------------|-----------------|
+| 1 | Sold Qty By State | Map | Qty, State | Visualizes total quantity sold across states. |
+| 2 | Top 5 State by Total Sales | Stacked Bar Chart | State, Total Sales | Highlights the top 5 states generating the highest total sales. |
+| 3 | Top 5 City by Total Sales | Stacked Bar Chart | City, Total Sales | Shows top 5 cities contributing most to overall sales. |
+| 4 | Bottom 5 State by Total Sales | Stacked Bar Chart | State, Total Sales | Displays the 5 lowest-performing states. |
+| 5 | Regional Overview Table | Table | State, City, Qty, Total Amount, Fulfilment | Provides detailed regional summary including sales, quantity, and fulfilment split. |
