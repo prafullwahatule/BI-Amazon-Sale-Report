@@ -196,9 +196,8 @@ The Overview page focuses on visualizing metrics that **summarize overall perfor
   Line chart showing total sales month-by-month.  
   *Purpose:* Tracks seasonality, growth trends, and identifies peaks or dips in revenue over time.
 
----
 
-**Visuals / Charts on Overview Page:**  
+### **Visuals / Charts on Overview Page:**  
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
 |---------|------|-------------|--------------|-----------------|
 | 1 | Top 5 Category by Total Sales | Stacked Column Chart | Category, Total Amount | Identifies top-performing product categories and revenue contribution. |
