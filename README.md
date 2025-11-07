@@ -46,3 +46,38 @@ Decision-makers need a **centralized, interactive dashboard** to understand perf
 **Purpose:**  
 The Home page serves as the entry point to the dashboard. It primarily contains the dashboard logo and navigation buttons to access other pages.
 
+---
+
+## 2. Overview Page
+
+**Screenshot:**  
+<img width="1406" height="797" alt="Screenshot 2025-11-08 012733" src="https://github.com/user-attachments/assets/f87dad0b-52ea-4ea9-9111-d79376fa24fd" />
+ 
+
+**Purpose:**  
+The Overview page provides a **high-level summary of Amazon sales performance**. It allows stakeholders to quickly understand overall business trends and key metrics.
+
+**Global KPIs:**  
+These KPIs are displayed at the top of the page and are visible across all pages:  
+- **Total Sales (₹):** Shows total revenue from all orders.  
+- **Total Orders:** Total number of unique orders placed.  
+- **Total Quantity Sold:** Total number of products sold.  
+- **Average Order Value (AOV):** Average revenue per order.
+
+**Visuals / Charts on Overview Page:**  
+| Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
+|---------|------|-------------|--------------|-----------------|
+| 1 | Top 5 Category by Total Sales | Stacked Column Chart | Category, Total Amount | Shows which product categories generate the highest revenue. |
+| 2 | Fulfilment by Total Sales | Donut Chart | Fulfilment, Total Amount | Compares contribution of Amazon (FBA) vs Merchant (FBM) fulfilment to total sales. |
+| 3 | State Wise Total Sales | Filled Map | State, Total Amount | Displays total sales distribution across states. |
+| 4 | Promotion Type by Total Sales | Stacked Bar Chart | Promotion IDs, Total Amount | Compares sales generated from promotional vs non-promotional orders. |
+| 5 | Monthly Sales Trend | Line Chart | Month, Total Amount | Tracks monthly revenue patterns and seasonality trends. |
+
+**Global Filters / Slicers:**  
+- Category  
+- Date  
+- City  
+- Month  
+- Status  
+- Size  
+- Order Status Group
