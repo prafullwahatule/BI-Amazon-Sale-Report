@@ -173,7 +173,7 @@ These filters are **applied across all pages**:
 The Overview page provides a **high-level summary of Amazon sales performance**.  
 It allows stakeholders to quickly understand overall business trends, monitor sales performance, and identify growth opportunities.
 
----
+
 
 ### 📈 Page-Specific Visuals
 The Overview page focuses on visualizing metrics that **summarize overall performance**:
@@ -198,7 +198,6 @@ The Overview page focuses on visualizing metrics that **summarize overall perfor
   Line chart showing total sales month-by-month.  
   *Insight:* Tracks seasonality, growth trends, and identifies peaks or dips in revenue over time.
 
----
 
 ### 📊 Visuals / Charts on Overview Page 
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
@@ -209,7 +208,6 @@ The Overview page focuses on visualizing metrics that **summarize overall perfor
 | 4 | Promotion Type by Total Sales | Stacked Bar Chart | Promotion IDs, Total Amount | Compares revenue from promotional vs non-promotional orders. |
 | 5 | Monthly Sales Trend | Line Chart | Month, Total Amount | Displays monthly sales trends and seasonality patterns. |
 
----
 
 ### 💡 Insights for Stakeholders
 - Quickly identify **high-performing product categories** and those needing attention.  
@@ -232,7 +230,6 @@ It allows stakeholders to:
 - 📏 Understand **product size performance**  
 - 📦 Optimize **inventory planning**, **marketing campaigns**, and **sales strategies**  
 
----
 
 ### 📊 Page-Specific KPIs
 
@@ -252,7 +249,7 @@ It allows stakeholders to:
   Calculates the average sales per category.  
   *Insight:* Enables comparison across categories to understand overall product performance and potential improvement areas.
 
----
+
 
 ### 📈 Visuals / Charts on Product Page
 
@@ -264,7 +261,7 @@ It allows stakeholders to:
 | 4 | Qty By Month & Category | Line Chart | Qty, Month, Category | Tracks **monthly demand trends per category**. Helps detect seasonality and identify periods of high demand for specific categories. |
 | 5 | Total Sales By Category | Stacked Column Chart | Category, Total Amount | Measures **revenue contribution of each product category**. Supports strategic planning, marketing, and inventory decisions. |
 
----
+
 
 ### 💡 Insights for Stakeholders
 - Focus on **top-performing SKUs and categories** to maximize revenue.  
@@ -286,7 +283,7 @@ It helps stakeholders:
 - 📊 Monitor **delivery success rates and operational efficiency**  
 - ⚙️ Identify areas to improve **logistics and fulfilment strategy**  
 
----
+
 
 ### 📊 KPIs on Fulfilment Page
 
@@ -318,7 +315,7 @@ It helps stakeholders:
   Total revenue generated from Merchant-fulfilled orders.  
   *Insight:* Measures revenue contribution from seller-managed fulfilment.
 
----
+
 
 ### 📈 Visuals / Charts on Fulfilment Page
 
@@ -331,7 +328,7 @@ It helps stakeholders:
 | 5 | FBA Share % | Donut Chart | Order Type, Total Amount | Shows percentage of total sales fulfilled via Amazon FBA. Useful to measure Amazon’s operational dominance. |
 | 6 | FBM Share % | Donut Chart | Order Type, Total Amount | Shows percentage of total sales fulfilled via Merchant FBM. Helps evaluate merchant-driven performance. |
 
----
+
 
 ### 💡 Insights for Stakeholders
 - Identify which fulfilment type (FBA or FBM) drives **more revenue and order volume**.  
@@ -353,7 +350,7 @@ It helps stakeholders:
 - 🗺️ Make **data-driven regional strategies**  
 - 📦 Allocate resources and plan promotions based on **regional sales trends**  
 
----
+
 
 ### 📊 KPIs on Region Page
 
@@ -365,7 +362,7 @@ It helps stakeholders:
   Finds the city with the maximum revenue contribution.  
   *Insight:* Highlights key urban markets driving sales, aiding targeted campaigns.
 
----
+
 
 ### 📈 Visuals / Charts on Region Page
 
@@ -377,7 +374,7 @@ It helps stakeholders:
 | 4 | Bottom 5 State by Total Sales | Stacked Bar Chart | State, Total Sales | Displays the 5 lowest-performing states. Enables targeted improvement initiatives. |
 | 5 | Regional Overview Table | Table | State, City, Qty, Total Amount, Fulfilment | Provides a detailed regional summary including sales, quantity, and fulfilment split. Supports deeper analysis of regional trends. |
 
----
+
 
 ### 💡 Insights for Stakeholders
 - Identify regions contributing **most and least** to sales revenue.  
@@ -399,7 +396,6 @@ It helps stakeholders:
 - 🏆 Identify which promotions drive the highest quantity and revenue  
 - 📈 Evaluate the effectiveness of marketing campaigns in boosting sales
 
----
 
 ### 📌 Page-Specific KPI's
 
@@ -411,7 +407,7 @@ It helps stakeholders:
   Percentage of total sales under **promotional offers**.  
   *Insight:* Measures campaign effectiveness and ROI of promotional activities.
 
----
+
 
 ### 📊 Visuals / Charts on Promotion Page
 
@@ -423,7 +419,7 @@ It helps stakeholders:
 | 4 | Top 5 Promotion IDs by Qty | Stacked Bar Chart | Promotion IDs, Qty | **Highlights the top 5 promotions driving the highest order quantities.** Helps marketing teams identify most effective campaigns. |
 | 5 | Total Sales By Promotion Type | Donut Chart | Total Amount, Promotion Type | **Compares revenue under each promotion type.** Assists in planning future marketing strategies based on performance. |
 
----
+
 
 ### ⚙️ Filters / Slicers on Promotion Page
 
@@ -432,7 +428,6 @@ It helps stakeholders:
 | 1 | Business 2 Business | B2B | Allows filtering sales for B2B orders to evaluate offer performance in the business segment. |
 | 2 | Fulfilment | Fulfilment | Enables analysis of promotions by fulfilment type (FBA vs FBM) to understand channel-wise impact. |
 
----
 
 ### 💡 Insights for Stakeholders
 - Understand **organic vs promotional sales** and overall campaign effectiveness  
@@ -455,7 +450,6 @@ It helps stakeholders:
 - 🏷️ Plan inventory, marketing, and operational strategies  
 - 📅 Make data-driven forecasts for upcoming months
 
----
 
 ### 📌 Page-Specific KPI's
 
@@ -467,7 +461,6 @@ It helps stakeholders:
   Identifies the month with the maximum total sales.  
   *Insight:* Enables planning for high-demand months, such as scaling stock, logistics, or marketing campaigns.
 
----
 
 ### 📊 Visuals / Charts on Forecasting Page
 
@@ -481,7 +474,6 @@ It helps stakeholders:
 | 6 | Business To Business Trend | Stacked Column Chart | B2B, Total Amount | **Shows revenue contribution from B2B vs B2C orders.** Supports segment-specific strategy and sales planning. |
 | 7 | Sales by Shipping Type & Month | Donut Chart | Month, Shipping Type, Total Amount | **Displays monthly sales distribution by shipping type.** Helps optimize delivery methods and assess customer preferences. |
 
----
 
 ### 💡 Insights for Stakeholders
 - Understand **historical sales patterns** and identify high-demand periods  
@@ -492,6 +484,34 @@ It helps stakeholders:
 
 ---
 
+## 🎨 Dashboard Design
+
+**Theme:** Blue–Orange gradient (bright, professional, and easy on eyes)  
+**Top Section:** Global KPIs with icons (Total Sales, Total Orders, Avg Order Value, Total Quantity Sold) for instant readability  
+**Left Panel:** Filter / Slicer Section (Category, Date, City, Month, Status, Size, Order Status Group) + Quick Insights summary  
+
+**Page Layout:**  
+- **Home:** Logo + navigation buttons  
+- **Overview:** High-level sales trends with charts and maps  
+- **Product:** SKU & Category performance visualized with donuts, columns, and line charts  
+- **Fulfilment:** FBA vs FBM analysis with efficiency metrics  
+- **Region:** State and city-wise sales maps and bar charts  
+- **Promotion:** Promo impact with share %, top promotion IDs, and trend charts  
+- **Forecasting:** Monthly sales trends, seasonality, and predictive line/area charts  
+
+**Design Style:** Clean alignment, consistent color palette, highlight important metrics with bold colors  
+**UI Style:** Rounded panels, subtle shadows, visual hierarchy for KPIs, interactive filters for real-time analysis  
+
+---
+
+## 🛠️ Tools Used
+
+- **Microsoft Power BI Desktop** – for building reports and interactive dashboards  
+- **Power Query Editor** – for data cleaning and transformation  
+- **DAX (Data Analysis Expressions)** – for calculating KPIs, percentages, trends  
+- **Excel / CSV Dataset** – source of Amazon sales data
+
+---
 ## 🙏 Acknowledgement  
 
 Special thanks to the **Retail Sales Sharing Dataset (Open Data)** for providing an excellent real-world dataset.  
