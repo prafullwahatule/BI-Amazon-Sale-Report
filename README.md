@@ -81,3 +81,29 @@ These KPIs are displayed at the top of the page and are visible across all pages
 - Status  
 - Size  
 - Order Status Group
+
+---
+
+## 3. Product Page
+
+**Screenshot:**  
+<img width="1402" height="794" alt="Screenshot 2025-11-08 012814" src="https://github.com/user-attachments/assets/44a30531-ce9d-43ff-b416-504c5b91c1a2" />
+
+
+**Purpose:**  
+The Product page provides insights into **product-level performance**. It helps stakeholders identify top-selling categories, SKUs, and sizes to optimize inventory, marketing, and sales strategies.
+
+**KPIs on Product Page:**  
+- **Best-Selling Category:** Identifies the product category with the highest total sales.  
+- **Top Performing Size:** Highlights which product size sells the most.  
+- **Top SKU by Sales:** Shows the SKU generating maximum revenue.  
+- **Average Category Revenue (₹):** Finds the average sales per category for comparison.  
+
+**Visuals / Charts on Product Page:**  
+| Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
+|---------|------|-------------|--------------|-----------------|
+| 1 | Top 3 SKU by Total Sales | Donut Chart | SKU, Total Amount | Identifies the best revenue-generating SKUs. |
+| 2 | Top 3 SKU by Total Qty | Donut Chart | SKU, Qty | Shows which products are selling the most units. |
+| 3 | Total Sales By Size | Stacked Bar Chart | Size, Total Amount | Reveals which size variants contribute more sales. |
+| 4 | Qty By Month & Category | Line Chart | Qty, Month, Category | Tracks monthly demand trends across categories. |
+| 5 | Total Sales By Category | Stacked Column Chart | Category, Total Amount | Measures category-wise revenue contribution. |
