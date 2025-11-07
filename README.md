@@ -6,7 +6,7 @@ The dashboard provides insights on **product performance 🛍️, fulfilment eff
 It is aimed at helping stakeholders make **data-driven business decisions 💡**.
 
 ---
-
+## Problem Statement
 Businesses often struggle with tracking and analyzing large volumes of sales data across multiple dimensions like **product, region, fulfilment type, and promotions**.  
 Manual reporting is time-consuming ⏳, error-prone ⚠️, and does not provide **real-time actionable insights ⚡**.  
 Decision-makers need a **centralized, interactive dashboard 🖥️** to understand performance, identify trends, and take informed actions quickly.
