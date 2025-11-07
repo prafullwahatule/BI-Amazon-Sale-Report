@@ -55,7 +55,37 @@ The raw Amazon sales data was cleaned and transformed to ensure accuracy and con
 | 19 | Remove Column `Country` |
 | 20 | Add Column `Promotion Type` |
 
-### 1.2 KYD Data Transformation
+
+
+### 1.2 Data Cleaning: Rows & Columns Effect
+
+The following table shows how the number of rows and columns changed after each cleaning/transformation step:
+
+| Sr. No. | Rows Before | Rows After | Effect (Rows) | Columns Before | Columns After | Effect (Columns) |
+|---------|------------|-----------|---------------|----------------|---------------|-----------------|
+| 0 | 128975 | 128975 | 0 | 24 | 24 | 0 |
+| 1 | 128975 | 128975 | 0 | 24 | 23 | 1 |
+| 2 | 128975 | 128975 | 0 | 23 | 22 | 1 |
+| 3 | 128975 | 128975 | 0 | 22 | 21 | 1 |
+| 4 | 128975 | 128975 | 0 | 21 | 20 | 1 |
+| 5 | 128975 | 128975 | 0 | 20 | 19 | 1 |
+| 6 | 128975 | 128975 | 0 | 19 | 19 | 0 |
+| 7 | 128975 | 128975 | 0 | 19 | 19 | 0 |
+| 8 | 128975 | 128969 | 6 | 19 | 19 | 0 |
+| 9 | 128969 | 116165 | 12804 | 19 | 19 | 0 |
+| 10 | 116165 | 116165 | 0 | 19 | 20 | 1 |
+| 11 | 116165 | 113698 | 2467 | 20 | 20 | 0 |
+| 12 | 113698 | 113698 | 0 | 20 | 21 | 1 |
+| 13 | 113698 | 113698 | 0 | 21 | 22 | 1 |
+| 14 | 113698 | 113698 | 0 | 22 | 23 | 1 |
+| 15 | 113698 | 113698 | 0 | 23 | 24 | 1 |
+| 16 | 113698 | 113698 | 0 | 24 | 25 | 1 |
+| 17 | 113698 | 113698 | 0 | 25 | 24 | 1 |
+| 18 | 113698 | 113698 | 0 | 24 | 23 | 1 |
+| 19 | 113698 | 113698 | 0 | 13 | 22 | 1 |
+| 20 | 113698 | 113698 | 0 | 22 | 23 | 1 |
+
+### 1.3 KYD Data Transformation
 The following table shows the **columns before and after transformation**, including their purpose:
 
 | Col No. | Column Name (Before) | Description / Purpose | Col No. | Column Name (After) | Description / Purpose |
@@ -86,33 +116,7 @@ The following table shows the **columns before and after transformation**, inclu
 | 24 | Unnamed: 22 | Extra blank column | - | - | Removed during cleaning |
 
 
-### 1.3 Data Cleaning: Rows & Columns Effect
 
-The following table shows how the number of rows and columns changed after each cleaning/transformation step:
-
-| Sr. No. | Rows Before | Rows After | Effect (Rows) | Columns Before | Columns After | Effect (Columns) |
-|---------|------------|-----------|---------------|----------------|---------------|-----------------|
-| 0 | 128975 | 128975 | 0 | 24 | 24 | 0 |
-| 1 | 128975 | 128975 | 0 | 24 | 23 | 1 |
-| 2 | 128975 | 128975 | 0 | 23 | 22 | 1 |
-| 3 | 128975 | 128975 | 0 | 22 | 21 | 1 |
-| 4 | 128975 | 128975 | 0 | 21 | 20 | 1 |
-| 5 | 128975 | 128975 | 0 | 20 | 19 | 1 |
-| 6 | 128975 | 128975 | 0 | 19 | 19 | 0 |
-| 7 | 128975 | 128975 | 0 | 19 | 19 | 0 |
-| 8 | 128975 | 128969 | 6 | 19 | 19 | 0 |
-| 9 | 128969 | 116165 | 12804 | 19 | 19 | 0 |
-| 10 | 116165 | 116165 | 0 | 19 | 20 | 1 |
-| 11 | 116165 | 113698 | 2467 | 20 | 20 | 0 |
-| 12 | 113698 | 113698 | 0 | 20 | 21 | 1 |
-| 13 | 113698 | 113698 | 0 | 21 | 22 | 1 |
-| 14 | 113698 | 113698 | 0 | 22 | 23 | 1 |
-| 15 | 113698 | 113698 | 0 | 23 | 24 | 1 |
-| 16 | 113698 | 113698 | 0 | 24 | 25 | 1 |
-| 17 | 113698 | 113698 | 0 | 25 | 24 | 1 |
-| 18 | 113698 | 113698 | 0 | 24 | 23 | 1 |
-| 19 | 113698 | 113698 | 0 | 13 | 22 | 1 |
-| 20 | 113698 | 113698 | 0 | 22 | 23 | 1 |
 
 ---
 
@@ -127,15 +131,35 @@ The following table shows how the number of rows and columns changed after each 
 
 ---
 
-
 ## 1. Home Page
 
 **Screenshot:**  
 <img width="1404" height="796" alt="Screenshot 2025-11-08 012636" src="https://github.com/user-attachments/assets/38f9a4d8-e333-4c08-a196-51e98efeebbc" />
 
-
 **Purpose:**  
-The Home page serves as the entry point to the dashboard. It primarily contains the dashboard logo and navigation buttons to access other pages.
+The Home page serves as the **entry point** to the dashboard.  
+It primarily contains:  
+- Dashboard logo  
+- Navigation buttons to access other pages
+
+---
+
+### Global KPIs
+These KPIs are **visible across all pages** at the top:  
+- **Total Sales (₹):** Shows total revenue from all orders  
+- **Total Orders:** Total number of unique orders placed  
+- **Total Quantity Sold:** Total number of products sold  
+- **Average Order Value (AOV):** Average revenue per order
+
+### Global Filters / Slicers
+These filters are **applied across all pages**:  
+- Category  
+- Date  
+- City  
+- Month  
+- Status  
+- Size  
+- Order Status Group
 
 ---
 
@@ -148,13 +172,6 @@ The Home page serves as the entry point to the dashboard. It primarily contains 
 **Purpose:**  
 The Overview page provides a **high-level summary of Amazon sales performance**. It allows stakeholders to quickly understand overall business trends and key metrics.
 
-**Global KPIs:**  
-These KPIs are displayed at the top of the page and are visible across all pages:  
-- **Total Sales (₹):** Shows total revenue from all orders.  
-- **Total Orders:** Total number of unique orders placed.  
-- **Total Quantity Sold:** Total number of products sold.  
-- **Average Order Value (AOV):** Average revenue per order.
-
 **Visuals / Charts on Overview Page:**  
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
 |---------|------|-------------|--------------|-----------------|
@@ -163,15 +180,6 @@ These KPIs are displayed at the top of the page and are visible across all pages
 | 3 | State Wise Total Sales | Filled Map | State, Total Amount | Displays total sales distribution across states. |
 | 4 | Promotion Type by Total Sales | Stacked Bar Chart | Promotion IDs, Total Amount | Compares sales generated from promotional vs non-promotional orders. |
 | 5 | Monthly Sales Trend | Line Chart | Month, Total Amount | Tracks monthly revenue patterns and seasonality trends. |
-
-**Global Filters / Slicers:**  
-- Category  
-- Date  
-- City  
-- Month  
-- Status  
-- Size  
-- Order Status Group
 
 ---
 
