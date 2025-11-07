@@ -261,7 +261,6 @@ The Region page provides insights into **state-wise and city-wise sales performa
 **Screenshot:**  
 <img width="1407" height="799" alt="Screenshot 2025-11-08 013015" src="https://github.com/user-attachments/assets/7951c19a-5b84-4b8d-bf8b-55c955d3ad0c" />
 
-
 **Purpose:**  
 The Promotion page provides insights into **promotional offer performance**. It helps stakeholders analyze how different promotions impact sales and understand revenue generated organically versus via offers.
 
@@ -277,6 +276,13 @@ The Promotion page provides insights into **promotional offer performance**. It 
 | 3 | Sales by Size & Qty | Line Chart | Total Amount, Size, Qty | Displays sales and quantity variation across product sizes during promotions. |
 | 4 | Top 5 Promotion IDs by Qty | Stacked Bar Chart | Promotion IDs, Qty | Highlights the top 5 promotion IDs that drove the highest quantity of orders. |
 | 5 | Total Sales By Promotion Type | Donut Chart | Total Amount, Promotion Type | Compares total sales generated under each promotion type. |
+
+**Filters / Slicers on Promotion Page:**  
+| Sr. No. | Filter / Slicer Name | Used Column |
+|---------|-------------------|-------------|
+| 1 | Business 2 Business | B2B |
+| 2 | Fulfilment | Fulfilment |
+
 
 ---
 
