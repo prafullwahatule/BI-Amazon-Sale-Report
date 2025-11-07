@@ -1,32 +1,30 @@
-# Amazon Sales Dashboard – Power BI Project
+# 📊 Amazon Sales Dashboard – Power BI Project
 
 ## Project Overview
 This project is a **Power BI-based interactive dashboard** designed to analyze and visualize Amazon sales data.  
-The dashboard provides insights on product performance, fulfilment efficiency, regional sales trends, promotional effectiveness, and sales forecasting.  
-It is aimed at helping stakeholders make **data-driven business decisions**.
+The dashboard provides insights on **product performance 🛍️, fulfilment efficiency 🚚, regional sales trends 🌍, promotional effectiveness 🎁, and sales forecasting 📈**.  
+It is aimed at helping stakeholders make **data-driven business decisions 💡**.
 
 ---
 
-## Problem Statement
-Businesses often struggle with tracking and analyzing large volumes of sales data across multiple dimensions like product, region, fulfilment type, and promotions.  
-Manual reporting is time-consuming, error-prone, and does not provide real-time actionable insights.  
-Decision-makers need a **centralized, interactive dashboard** to understand performance, identify trends, and take informed actions quickly.
+Businesses often struggle with tracking and analyzing large volumes of sales data across multiple dimensions like **product, region, fulfilment type, and promotions**.  
+Manual reporting is time-consuming ⏳, error-prone ⚠️, and does not provide **real-time actionable insights ⚡**.  
+Decision-makers need a **centralized, interactive dashboard 🖥️** to understand performance, identify trends, and take informed actions quickly.
 
 ---
 
-## Objectives
-- **Centralize Sales Data:** Consolidate Amazon sales data from multiple sources into a single dashboard for easy access and analysis.  
-- **Track Key Metrics:** Monitor global KPIs such as total sales, total orders, quantity sold, and average order value (AOV).  
-- **Analyze Product Performance:** Identify top-selling categories, SKUs, and sizes to optimize inventory and marketing strategies.  
-- **Monitor Fulfilment Efficiency:** Evaluate FBA vs FBM order processing, delivery efficiency, and operational dependency.  
-- **Understand Regional Trends:** Analyze state-wise and city-wise sales distribution to target high-performing and underperforming regions.  
-- **Evaluate Promotions:** Measure the effectiveness of promotional campaigns and understand their impact on sales growth.  
-- **Forecast Sales Trends:** Predict future sales patterns using historical data to support strategic planning.  
-- **Interactive Reporting:** Enable stakeholders to filter, slice, and drill-down data for detailed insights in real-time.
+## 🎯 Objectives
+- **Centralize Sales Data 🗂️:** Consolidate Amazon sales data from multiple sources into a single dashboard for easy access and analysis.  
+- **Track Key Metrics 📊:** Monitor global KPIs such as total sales, total orders, quantity sold, and average order value (AOV).  
+- **Analyze Product Performance 🛍️:** Identify top-selling categories, SKUs, and sizes to optimize inventory and marketing strategies.  
+- **Monitor Fulfilment Efficiency 🚚:** Evaluate FBA vs FBM order processing, delivery efficiency, and operational dependency.  
+- **Understand Regional Trends 🌍:** Analyze state-wise and city-wise sales distribution to target high-performing and underperforming regions.  
+- **Evaluate Promotions 🎁:** Measure the effectiveness of promotional campaigns and understand their impact on sales growth.  
+- **Forecast Sales Trends 📈:** Predict future sales patterns using historical data to support strategic planning.  
+- **Interactive Reporting 🖥️:** Enable stakeholders to filter, slice, and drill-down data for detailed insights in real-time.
 
----
 
-## 1. Data Cleaning & Transformation
+## 🧹 1. Data Cleaning & Transformation
 
 ### 1.1 KYD Data Cleaning Steps
 The raw Amazon sales data was cleaned and transformed to ensure accuracy and consistency. Below are the applied steps:
@@ -117,21 +115,24 @@ The following table shows the **columns before and after transformation**, inclu
 
 
 
+---
+
+## 🗂️ Dashboard Pages
+
+The Amazon Sales Dashboard consists of **7 interactive pages** that provide detailed insights into sales, products, fulfilment, regions, promotions, and forecasts.  
+
+1. **🏠 Home** – Dashboard logo and navigation buttons to access all pages.  
+2. **📊 Overview** – High-level KPIs and overall sales performance summary.  
+3. **🛍️ Product** – Product-level performance, top-selling SKUs, and size/category insights.  
+4. **🚚 Fulfilment** – FBA vs FBM order performance, delivery efficiency, and operational insights.  
+5. **🌍 Region** – State-wise and city-wise sales distribution, highlighting high and low-performing regions.  
+6. **💰 Promotion** – Analysis of promotional campaigns and their impact on sales.  
+7. **📈 Forecasting** – Monthly sales trends, seasonality patterns, and future sales predictions.  
+
 
 ---
 
-## Dashboard Pages
-1. **Home** – Logo and page navigation buttons  
-2. **Overview** – High-level KPIs and overall sales analysis  
-3. **Product** – Product performance and top-selling SKUs  
-4. **Fulfilment** – FBA vs FBM performance and delivery efficiency  
-5. **Region** – State and city-wise sales distribution  
-6. **Promotion** – Promotional offer analysis and impact  
-7. **Forecasting** – Monthly trends, seasonality, and future sales prediction
-
----
-
-## 1. Home Page
+## 🏠 1. Home Page
 
 **Screenshot:**  
 <img width="1404" height="796" alt="Screenshot 2025-11-08 012636" src="https://github.com/user-attachments/assets/38f9a4d8-e333-4c08-a196-51e98efeebbc" />
@@ -139,30 +140,31 @@ The following table shows the **columns before and after transformation**, inclu
 **Purpose:**  
 The Home page serves as the **entry point** to the dashboard.  
 It primarily contains:  
-- Dashboard logo  
-- Navigation buttons to access other pages
+- 🏷️ **Dashboard Logo**  
+- 🧭 **Navigation Buttons** to access other pages
 
 ---
 
-### Global KPIs
+### 📊 Global KPIs
 These KPIs are **visible across all pages** at the top:  
-- **Total Sales (₹):** Shows total revenue from all orders  
-- **Total Orders:** Total number of unique orders placed  
-- **Total Quantity Sold:** Total number of products sold  
-- **Average Order Value (AOV):** Average revenue per order
+- 💰 **Total Sales (₹):** Shows total revenue from all orders  
+- 📝 **Total Orders:** Total number of unique orders placed  
+- 📦 **Total Quantity Sold:** Total number of products sold  
+- 📈 **Average Order Value (AOV):** Average revenue per order
 
-### Global Filters / Slicers
+### 🔍 Global Filters / Slicers
 These filters are **applied across all pages**:  
-- Category  
-- Date  
-- City  
-- Month  
-- Status  
-- Size  
-- Order Status Group
+- 🛒 **Category**  
+- 📅 **Date**  
+- 🌆 **City**  
+- 🗓️ **Month**  
+- 🚦 **Status**  
+- 📏 **Size**  
+- 📊 **Order Status Group**
 
 ---
-## 2. Overview Page
+
+## 📊 2. Overview Page
 
 **Screenshot:**  
 <img width="1406" height="797" alt="Screenshot 2025-11-08 012733" src="https://github.com/user-attachments/assets/f87dad0b-52ea-4ea9-9111-d79376fa24fd" />
@@ -171,32 +173,34 @@ These filters are **applied across all pages**:
 The Overview page provides a **high-level summary of Amazon sales performance**.  
 It allows stakeholders to quickly understand overall business trends, monitor sales performance, and identify growth opportunities.
 
+---
 
-### Page-Specific Visuals
+### 📈 Page-Specific Visuals
 The Overview page focuses on visualizing metrics that **summarize overall performance**:
 
-- **Top 5 Category by Total Sales:**  
+- 🏆 **Top 5 Category by Total Sales:**  
   Highlights the product categories generating the highest revenue.  
-  *Purpose:* Helps stakeholders identify which product categories drive the most business and which are underperforming.
+  *Insight:* Helps stakeholders identify which categories drive the most business and which need improvement.
 
-- **Fulfilment by Total Sales:**  
+- 🚚 **Fulfilment by Total Sales:**  
   Compares revenue contributed by Amazon (FBA) and Merchant (FBM) fulfilment.  
-  *Purpose:* Helps understand operational dependency and the impact of fulfilment methods on total sales.
+  *Insight:* Understand operational dependency and the impact of fulfilment methods on total sales.
 
-- **State Wise Total Sales:**  
+- 🌎 **State Wise Total Sales:**  
   Shows total sales distributed across all states on a map.  
-  *Purpose:* Visualizes regional performance, allowing stakeholders to spot high-performing and low-performing regions geographically.
+  *Insight:* Visualizes regional performance, allowing stakeholders to spot high-performing and low-performing regions geographically.
 
-- **Promotion Type by Total Sales:**  
-  Compares revenue generated from orders with promotions vs without promotions.  
-  *Purpose:* Evaluates the effectiveness of marketing campaigns and discounts in driving sales.
+- 🎁 **Promotion Type by Total Sales:**  
+  Compares revenue from orders with promotions vs without promotions.  
+  *Insight:* Evaluates the effectiveness of marketing campaigns and discounts in driving sales.
 
-- **Monthly Sales Trend:**  
+- 📅 **Monthly Sales Trend:**  
   Line chart showing total sales month-by-month.  
-  *Purpose:* Tracks seasonality, growth trends, and identifies peaks or dips in revenue over time.
+  *Insight:* Tracks seasonality, growth trends, and identifies peaks or dips in revenue over time.
 
+---
 
-### Visuals / Charts on Overview Page 
+### 📊 Visuals / Charts on Overview Page 
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
 |---------|------|-------------|--------------|-----------------|
 | 1 | Top 5 Category by Total Sales | Stacked Column Chart | Category, Total Amount | Identifies top-performing product categories and revenue contribution. |
@@ -205,17 +209,18 @@ The Overview page focuses on visualizing metrics that **summarize overall perfor
 | 4 | Promotion Type by Total Sales | Stacked Bar Chart | Promotion IDs, Total Amount | Compares revenue from promotional vs non-promotional orders. |
 | 5 | Monthly Sales Trend | Line Chart | Month, Total Amount | Displays monthly sales trends and seasonality patterns. |
 
+---
 
-### Insights for Stakeholders
+### 💡 Insights for Stakeholders
 - Quickly identify **high-performing product categories** and those needing attention.  
 - Understand the **impact of fulfilment types** (FBA vs FBM) on overall sales.  
 - Detect **regional trends** and target high-performing or underperforming states for growth.  
 - Assess **effectiveness of promotional campaigns** in boosting sales.  
-- Monitor **seasonality and monthly revenue patterns** to support inventory, marketing, and operational planning.  
+- Monitor **seasonality and monthly revenue patterns** to support inventory, marketing, and operational planning.
+
 
 ---
-
-## 3. Product Page
+## 📦 3. Product Page
 
 **Screenshot:**  
 <img width="1402" height="794" alt="Screenshot 2025-11-08 012814" src="https://github.com/user-attachments/assets/44a30531-ce9d-43ff-b416-504c5b91c1a2" />
@@ -223,50 +228,53 @@ The Overview page focuses on visualizing metrics that **summarize overall perfor
 **Purpose:**  
 The Product page provides insights into **product-level performance**.  
 It allows stakeholders to:  
-- Identify top-selling **categories** and **SKUs**  
-- Understand **product size performance**  
-- Optimize **inventory planning**, **marketing campaigns**, and **sales strategies**  
+- 🏷️ Identify top-selling **categories** and **SKUs**  
+- 📏 Understand **product size performance**  
+- 📦 Optimize **inventory planning**, **marketing campaigns**, and **sales strategies**  
 
+---
 
-### Page-Specific KPI's
+### 📊 Page-Specific KPIs
 
-- **Best-Selling Category:**  
+- 🏆 **Best-Selling Category:**  
   Shows which product category generated the highest total sales.  
-  *Insight:* Helps stakeholders focus on the most profitable categories and make decisions about stock and promotions.
+  *Insight:* Helps stakeholders focus on the most profitable categories and plan stock and promotions accordingly.
 
-- **Top Performing Size:**  
+- 📏 **Top Performing Size:**  
   Highlights which product size sells the most units.  
   *Insight:* Guides production and inventory decisions by showing size preferences of customers.
 
-- **Top SKU by Sales:**  
+- 🔖 **Top SKU by Sales:**  
   Displays the SKU generating maximum revenue.  
   *Insight:* Helps in prioritizing marketing, inventory allocation, and promotions for top-performing products.
 
-- **Average Category Revenue (₹):**  
+- 💰 **Average Category Revenue (₹):**  
   Calculates the average sales per category.  
   *Insight:* Enables comparison across categories to understand overall product performance and potential improvement areas.
 
+---
 
-### Visuals / Charts on Product Page
+### 📈 Visuals / Charts on Product Page
 
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
 |---------|------|-------------|--------------|-----------------|
-| 1 | Top 3 SKU by Total Sales | Donut Chart | SKU, Total Amount | Identifies **top 3 revenue-generating SKUs**. Helps focus on products contributing the most to total sales. |
+| 1 | Top 3 SKU by Total Sales | Donut Chart | SKU, Total Amount | Identifies **top 3 revenue-generating SKUs**. Focuses on products contributing the most to total sales. |
 | 2 | Top 3 SKU by Total Qty | Donut Chart | SKU, Qty | Shows **top 3 selling SKUs by quantity**. Useful for inventory management and understanding demand trends. |
 | 3 | Total Sales By Size | Stacked Bar Chart | Size, Total Amount | Reveals which **size variants generate the highest revenue**. Assists in optimizing size-wise production and stock levels. |
 | 4 | Qty By Month & Category | Line Chart | Qty, Month, Category | Tracks **monthly demand trends per category**. Helps detect seasonality and identify periods of high demand for specific categories. |
 | 5 | Total Sales By Category | Stacked Column Chart | Category, Total Amount | Measures **revenue contribution of each product category**. Supports strategic planning, marketing, and inventory decisions. |
 
+---
 
-**Insights for Stakeholders:**  
-- Focus on top-performing SKUs and categories to maximize revenue.  
-- Adjust inventory levels based on top-selling sizes and trends.  
-- Plan marketing campaigns around high-performing products.  
-- Analyze monthly trends to anticipate demand spikes or dips.  
+### 💡 Insights for Stakeholders
+- Focus on **top-performing SKUs and categories** to maximize revenue.  
+- Adjust **inventory levels** based on top-selling sizes and trends.  
+- Plan **marketing campaigns** around high-performing products.  
+- Analyze **monthly trends** to anticipate demand spikes or dips.
 
 
 ---
-## 4. Fulfilment Page
+## 🚚 4. Fulfilment Page
 
 **Screenshot:**  
 <img width="1404" height="797" alt="Screenshot 2025-11-08 012844" src="https://github.com/user-attachments/assets/98651e2a-f7b3-4c12-8860-ed1aa459340d" />
@@ -274,42 +282,45 @@ It allows stakeholders to:
 **Purpose:**  
 The Fulfilment page provides insights into **order processing and delivery efficiency**.  
 It helps stakeholders:  
-- Evaluate **Amazon-fulfilled (FBA) vs Merchant-fulfilled (FBM)** performance  
-- Monitor **delivery success rates and operational efficiency**  
-- Identify areas to improve **logistics and fulfilment strategy**
+- 📦 Evaluate **Amazon-fulfilled (FBA) vs Merchant-fulfilled (FBM)** performance  
+- 📊 Monitor **delivery success rates and operational efficiency**  
+- ⚙️ Identify areas to improve **logistics and fulfilment strategy**  
 
+---
 
-### KPIs on Fulfilment Page
+### 📊 KPIs on Fulfilment Page
 
-- **Total Orders (Fulfilment):**  
+- 📝 **Total Orders (Fulfilment):**  
   Total number of orders processed.  
   *Insight:* Shows overall operational volume and helps track order handling efficiency.
 
-- **Avg Delivery Value (₹):**  
+- 💰 **Avg Delivery Value (₹):**  
   Compares the average order value for each fulfilment type.  
   *Insight:* Helps identify which fulfilment model brings higher revenue per order.
 
-- **Delivered Orders %:**  
+- ✅ **Delivered Orders %:**  
   Percentage of total delivered orders.  
   *Insight:* Tracks delivery efficiency and helps monitor fulfilment reliability.
 
-- **FBA % Share:**  
+- 🏆 **FBA % Share:**  
   Contribution of Amazon-fulfilled orders in total sales.  
   *Insight:* Indicates dependence on Amazon’s fulfilment network.
 
-- **FBM % Share:**  
+- 🛒 **FBM % Share:**  
   Contribution of Merchant-fulfilled orders in total sales.  
   *Insight:* Highlights the role of independent seller fulfilment in overall revenue.
 
-- **FBA Sales (₹):**  
+- 💵 **FBA Sales (₹):**  
   Total revenue generated from Amazon-fulfilled orders.  
   *Insight:* Measures Amazon’s direct contribution to total sales.
 
-- **FBM Sales (₹):**  
+- 💵 **FBM Sales (₹):**  
   Total revenue generated from Merchant-fulfilled orders.  
   *Insight:* Measures revenue contribution from seller-managed fulfilment.
 
-### Visuals / Charts on Fulfilment Page
+---
+
+### 📈 Visuals / Charts on Fulfilment Page
 
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
 |---------|------|-------------|--------------|-----------------|
@@ -320,16 +331,17 @@ It helps stakeholders:
 | 5 | FBA Share % | Donut Chart | Order Type, Total Amount | Shows percentage of total sales fulfilled via Amazon FBA. Useful to measure Amazon’s operational dominance. |
 | 6 | FBM Share % | Donut Chart | Order Type, Total Amount | Shows percentage of total sales fulfilled via Merchant FBM. Helps evaluate merchant-driven performance. |
 
+---
 
-### Insights for Stakeholders
+### 💡 Insights for Stakeholders
 - Identify which fulfilment type (FBA or FBM) drives **more revenue and order volume**.  
 - Monitor **delivery efficiency** over time to prevent delays or fulfilment bottlenecks.  
 - Optimize logistics by analyzing **city-wise order quantities** and trends.  
-- Understand the **balance between Amazon and Merchant fulfilment**, enabling informed operational decisions.  
+- Understand the **balance between Amazon and Merchant fulfilment**, enabling informed operational decisions.
 
 ---
 
-## 5. Region Page
+## 🌍 5. Region Page
 
 **Screenshot:**  
 <img width="1405" height="799" alt="Screenshot 2025-11-08 012946" src="https://github.com/user-attachments/assets/3ccd2b44-ff08-4934-94e4-53d1b9b0588b" />
@@ -337,24 +349,25 @@ It helps stakeholders:
 **Purpose:**  
 The Region page provides insights into **state-wise and city-wise sales performance**.  
 It helps stakeholders:  
-- Identify **high-performing and underperforming regions**  
-- Make **data-driven regional strategies**  
-- Allocate resources and plan promotions based on **regional sales trends**
+- 📈 Identify **high-performing and underperforming regions**  
+- 🗺️ Make **data-driven regional strategies**  
+- 📦 Allocate resources and plan promotions based on **regional sales trends**  
 
+---
 
-### KPIs on Region Page
+### 📊 KPIs on Region Page
 
-- **Top State by Sales:**  
+- 🏆 **Top State by Sales:**  
   Identifies the state generating the highest total sales.  
   *Insight:* Helps focus marketing and operational efforts on the most profitable regions.
 
-- **Top City by Sales:**  
+- 🌆 **Top City by Sales:**  
   Finds the city with the maximum revenue contribution.  
   *Insight:* Highlights key urban markets driving sales, aiding targeted campaigns.
 
+---
 
-
-### Visuals / Charts on Region Page
+### 📈 Visuals / Charts on Region Page
 
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
 |---------|------|-------------|--------------|-----------------|
@@ -364,111 +377,134 @@ It helps stakeholders:
 | 4 | Bottom 5 State by Total Sales | Stacked Bar Chart | State, Total Sales | Displays the 5 lowest-performing states. Enables targeted improvement initiatives. |
 | 5 | Regional Overview Table | Table | State, City, Qty, Total Amount, Fulfilment | Provides a detailed regional summary including sales, quantity, and fulfilment split. Supports deeper analysis of regional trends. |
 
+---
 
-### Insights for Stakeholders
+### 💡 Insights for Stakeholders
 - Identify regions contributing **most and least** to sales revenue.  
 - Prioritize **promotions, inventory, and fulfilment** in high-performing states/cities.  
 - Detect **underperforming areas** and plan corrective actions.  
-- Use data for **logistics optimization** and regional market strategy.  
+- Use data for **logistics optimization** and regional market strategy.
 
 ---
 
-## 6. Promotion Page
+## 🎁 6. Promotion Page
 
 **Screenshot:**  
 <img width="1407" height="799" alt="Screenshot 2025-11-08 013015" src="https://github.com/user-attachments/assets/7951c19a-5b84-4b8d-bf8b-55c955d3ad0c" />
 
 **Purpose:**  
 The Promotion page provides insights into **promotional offer performance**.  
-It allows stakeholders to:  
-- Understand the share of sales generated organically versus via promotions.  
-- Identify which promotions drive the highest quantity and revenue.  
-- Evaluate the effectiveness of marketing campaigns in boosting sales.
-
-
-### Page-Specific KPI's
-
-- **No Promotion % Share:**  
-  Shows the percentage of total sales that were made without any promotion.  
-  *Insight:* Helps stakeholders understand how much revenue is generated organically, indicating brand strength and product demand without discounts.  
-
-- **Promotion Applied % Share:**  
-  Shows the percentage of total sales that occurred under promotions or discounts.  
-  *Insight:* Measures the effectiveness and reach of promotional campaigns, enabling marketing teams to evaluate ROI of offers.
-
-
-
-### Visuals / Charts on Promotion Page
-
-| Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
-|---------|------|-------------|--------------|-----------------|
-| 1 | Promotion Type % by Qty | Donut Chart | Promotion Type, Qty | **Displays quantity distribution between orders with promotions and without promotions.** Stakeholders can quickly see what portion of sales is driven by offers versus organic sales. |
-| 2 | Sales by Month & Promotion Type | Line & Clustered Column Chart | Month, Promotion Type, Total Amount | **Compares monthly sales trends for promotional vs non-promotional orders.** Helps identify which months promotions had maximum impact and seasonal patterns in offer effectiveness. |
-| 3 | Sales by Size & Qty | Line Chart | Total Amount, Size, Qty | **Shows variation in sales and quantities across product sizes during promotions.** Supports size-specific promotion planning and inventory allocation. |
-| 4 | Top 5 Promotion IDs by Qty | Stacked Bar Chart | Promotion IDs, Qty | **Highlights the top 5 promotion campaigns driving highest order quantities.** Enables marketing teams to evaluate the most effective promotions for future campaigns. |
-| 5 | Total Sales By Promotion Type | Donut Chart | Total Amount, Promotion Type | **Compares revenue generated under each promotion type.** Helps stakeholders see which type of promotion contributed most to sales and plan marketing strategies accordingly. |
-
-
-### Filters / Slicers on Promotion Page
-
-| Sr. No. | Filter / Slicer Name | Used Column |
-|---------|-------------------|-------------|
-| 1 | Business 2 Business | B2B |  
-  *Insight:* Allows filtering sales and promotions specifically for B2B orders to evaluate how offers perform in the business segment. |
-| 2 | Fulfilment | Fulfilment |  
-  *Insight:* Enables analysis of promotions by fulfilment type (Amazon FBA vs Merchant FBM), helping operations and marketing teams understand impact per fulfilment channel.
-
-
-### Insights for Stakeholders
-- Understand **organic vs promotional sales** and overall campaign effectiveness.  
-- Identify **top-performing promotions** and their impact on quantity and revenue.  
-- Plan **size-specific or segment-specific promotions** using quantity and revenue data.  
-- Evaluate performance by **B2B segment and fulfilment type** for targeted marketing strategies.  
+It helps stakeholders:  
+- 📊 Understand the share of sales generated organically versus via promotions  
+- 🏆 Identify which promotions drive the highest quantity and revenue  
+- 📈 Evaluate the effectiveness of marketing campaigns in boosting sales
 
 ---
 
-## 7. Forecasting Page
+### 📌 Page-Specific KPI's
+
+- 🚫 **No Promotion % Share:**  
+  Percentage of total sales made **without any promotion**.  
+  *Insight:* Shows how much revenue is generated organically, indicating brand strength and product demand without discounts.  
+
+- 🎯 **Promotion Applied % Share:**  
+  Percentage of total sales under **promotional offers**.  
+  *Insight:* Measures campaign effectiveness and ROI of promotional activities.
+
+---
+
+### 📊 Visuals / Charts on Promotion Page
+
+| Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
+|---------|------|-------------|--------------|-----------------|
+| 1 | Promotion Type % by Qty | Donut Chart | Promotion Type, Qty | **Displays quantity distribution** between orders with promotions and without promotions. Helps stakeholders quickly see the share of organic vs promotional sales. |
+| 2 | Sales by Month & Promotion Type | Line & Clustered Column Chart | Month, Promotion Type, Total Amount | **Compares monthly sales trends** for promotional vs non-promotional orders. Identifies months with maximum promotional impact. |
+| 3 | Sales by Size & Qty | Line Chart | Total Amount, Size, Qty | **Shows sales variation across product sizes during promotions.** Supports size-specific promotion planning and inventory allocation. |
+| 4 | Top 5 Promotion IDs by Qty | Stacked Bar Chart | Promotion IDs, Qty | **Highlights the top 5 promotions driving the highest order quantities.** Helps marketing teams identify most effective campaigns. |
+| 5 | Total Sales By Promotion Type | Donut Chart | Total Amount, Promotion Type | **Compares revenue under each promotion type.** Assists in planning future marketing strategies based on performance. |
+
+---
+
+### ⚙️ Filters / Slicers on Promotion Page
+
+| Sr. No. | Filter / Slicer Name | Used Column | Insight |
+|---------|-------------------|-------------|---------|
+| 1 | Business 2 Business | B2B | Allows filtering sales for B2B orders to evaluate offer performance in the business segment. |
+| 2 | Fulfilment | Fulfilment | Enables analysis of promotions by fulfilment type (FBA vs FBM) to understand channel-wise impact. |
+
+---
+
+### 💡 Insights for Stakeholders
+- Understand **organic vs promotional sales** and overall campaign effectiveness  
+- Identify **top-performing promotions** driving maximum quantity and revenue  
+- Plan **size-specific or segment-specific promotions** using sales and quantity data  
+- Evaluate performance by **B2B segment and fulfilment type** for targeted marketing strategies
+
+---
+
+## 📈 7. Forecasting Page
 
 **Screenshot:**  
 <img width="1407" height="797" alt="Screenshot 2025-11-08 013041" src="https://github.com/user-attachments/assets/ac066690-de9b-4cce-b6d5-b80c1f9f8b0d" />
 
-
 **Purpose:**  
 The Forecasting page provides insights into **monthly sales trends, seasonality, and future sales predictions**.  
-It allows stakeholders to:  
-- Analyze historical sales patterns.  
-- Identify peak and low-demand months.  
-- Plan inventory, marketing, and operational strategies.  
-- Make data-driven forecasts for upcoming months.
+It helps stakeholders:  
+- 📊 Analyze historical sales patterns  
+- 🔝 Identify peak and low-demand months  
+- 🏷️ Plan inventory, marketing, and operational strategies  
+- 📅 Make data-driven forecasts for upcoming months
 
+---
 
-### Page-Specific KPI's
+### 📌 Page-Specific KPI's
 
-- **Avg Monthly Sales (₹):**  
+- 💰 **Avg Monthly Sales (₹):**  
   Calculates the average sales per month.  
-  *Insight:* Helps stakeholders understand seasonal trends and expected revenue, enabling better resource allocation.
+  *Insight:* Helps stakeholders understand seasonal trends and expected revenue for better resource allocation.
 
-- **Highest Sales Month:**  
+- 📈 **Highest Sales Month:**  
   Identifies the month with the maximum total sales.  
   *Insight:* Enables planning for high-demand months, such as scaling stock, logistics, or marketing campaigns.
 
+---
 
-### Visuals / Charts on Forecasting Page
+### 📊 Visuals / Charts on Forecasting Page
 
 | Sr. No. | Name | Visual Type | Columns Used | Purpose / Insight |
 |---------|------|-------------|--------------|-----------------|
-| 1 | Order Over Status | Line Chart | Order Status Group, Qty | **Tracks the movement of orders by status over time.** Helps stakeholders understand fulfillment and cancellation trends. |
+| 1 | Order Over Status | Line Chart | Order Status Group, Qty | **Tracks the movement of orders by status over time.** Helps understand fulfilment, returns, and cancellations. |
 | 2 | Qty Trend Over Time | Line Chart | Month, Qty | **Shows month-wise changes in ordered quantity.** Useful to detect seasonality or spikes in demand. |
 | 3 | Sales Trend Over Time | Line Chart | Month, Total Amount | **Displays overall monthly sales growth trends.** Supports business planning and trend analysis. |
-| 4 | Category Wise Monthly Trend | Area Chart | Month, Total Amount, Category | **Highlights monthly performance of product categories.** Reveals seasonal demand patterns per category for inventory planning. |
+| 4 | Category Wise Monthly Trend | Area Chart | Month, Total Amount, Category | **Highlights monthly performance of product categories.** Reveals seasonal demand patterns for inventory planning. |
 | 5 | Fulfilment Type Trend | Stacked Column Chart | Month, Fulfilment, Total Amount | **Compares sales by FBA and FBM fulfilment per month.** Helps assess operational efficiency and channel performance. |
 | 6 | Business To Business Trend | Stacked Column Chart | B2B, Total Amount | **Shows revenue contribution from B2B vs B2C orders.** Supports segment-specific strategy and sales planning. |
 | 7 | Sales by Shipping Type & Month | Donut Chart | Month, Shipping Type, Total Amount | **Displays monthly sales distribution by shipping type.** Helps optimize delivery methods and assess customer preferences. |
 
+---
 
-### Insights for Stakeholders
-- Understand **historical sales patterns** and identify high-demand periods.  
-- Detect **category-specific seasonal trends** to plan production and inventory.  
-- Evaluate **fulfilment efficiency and channel performance** over time.  
-- Optimize **B2B vs B2C strategies** based on revenue contribution.  
-- Plan **marketing and logistics** for upcoming months using predicted trends.
+### 💡 Insights for Stakeholders
+- Understand **historical sales patterns** and identify high-demand periods  
+- Detect **category-specific seasonal trends** to plan production and inventory  
+- Evaluate **fulfilment efficiency and channel performance** over time  
+- Optimize **B2B vs B2C strategies** based on revenue contribution  
+- Plan **marketing, logistics, and stock** for upcoming months using predicted trends
+
+---
+
+## 🙏 Acknowledgement  
+
+Special thanks to the **Retail Sales Sharing Dataset (Open Data)** for providing an excellent real-world dataset.  
+This project was created as part of a **Data Analytics learning journey** using **Power BI**.  
+
+---
+
+## 📎 Author  
+
+**👤 Name:** Prafull Wahatule  
+**📧 Email:** [prafullwahatule@gmail.com](mailto:prafullwahatule@gmail.com)  
+**💻 GitHub:** [prafullwahatule](https://github.com/prafullwahatule)  
+
+---
+
+⭐ *If you found this project helpful, don’t forget to star the repository!* ⭐
